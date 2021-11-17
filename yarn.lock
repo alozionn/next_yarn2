@@ -1669,31 +1669,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"amazon_scrapper@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "amazon_scrapper@workspace:."
-  dependencies:
-    "@types/node": ^16.11.7
-    "@types/react": ^17.0.35
-    "@typescript-eslint/eslint-plugin": ^5.4.0
-    "@typescript-eslint/parser": ^5.4.0
-    "@yarnpkg/sdks": ^2.5.1-rc.2
-    axios: ^0.24.0
-    eslint: <8.0.0
-    eslint-config-next: ^12.0.4
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    jest: ^27.3.1
-    next: ^12.0.4
-    playwright: ^1.16.3
-    prettier: ^2.4.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    tailwindcss: ^2.2.19
-    typescript: ^4.5.2
-  languageName: unknown
-  linkType: soft
-
 "anser@npm:1.4.9":
   version: 1.4.9
   resolution: "anser@npm:1.4.9"
@@ -1907,6 +1882,24 @@ __metadata:
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
   checksum: 7b78c451df768adba04e2d02e63e2d0bf3b07adcd6e42b4cf665cb7ce899bedd344c69a1dcbce355b5f972d597b25aaa1c1742b52cffd9caccb22f348114f6be
+  languageName: node
+  linkType: hard
+
+"autoprefixer@npm:latest":
+  version: 10.4.0
+  resolution: "autoprefixer@npm:10.4.0"
+  dependencies:
+    browserslist: ^4.17.5
+    caniuse-lite: ^1.0.30001272
+    fraction.js: ^4.1.1
+    normalize-range: ^0.1.2
+    picocolors: ^1.0.0
+    postcss-value-parser: ^4.1.0
+  peerDependencies:
+    postcss: ^8.1.0
+  bin:
+    autoprefixer: bin/autoprefixer
+  checksum: 7d511c64daeaa13c7888b40b0394cd891fab1852a1f60165330c9e49ab70ac29ad1e3386665d86361661cf2bbe90cea42b78ea73cb77b373ffe30a8f4973a955
   languageName: node
   linkType: hard
 
@@ -2342,7 +2335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001202, caniuse-lite@npm:^1.0.30001219, caniuse-lite@npm:^1.0.30001228, caniuse-lite@npm:^1.0.30001280":
+"caniuse-lite@npm:^1.0.30001202, caniuse-lite@npm:^1.0.30001219, caniuse-lite@npm:^1.0.30001228, caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001280":
   version: 1.0.30001282
   resolution: "caniuse-lite@npm:1.0.30001282"
   checksum: 62797fd756e88bfa01f0f983bea9de7814293b209456e8f0b20596b03d2880246f63dc90f947a1fa63f92806ebefbb86fc7811dbecb7839927886d07996938be
@@ -3890,6 +3883,13 @@ __metadata:
     combined-stream: ^1.0.8
     mime-types: ^2.1.12
   checksum: b019e8d35c8afc14a2bd8a7a92fa4f525a4726b6d5a9740e8d2623c30e308fbb58dc8469f90415a856698933c8479b01646a9dff33c87cc4e76d72aedbbf860d
+  languageName: node
+  linkType: hard
+
+"fraction.js@npm:^4.1.1":
+  version: 4.1.2
+  resolution: "fraction.js@npm:4.1.2"
+  checksum: a67eff2b599cb6546b77ce9c913bd0cccd646e1a525c793ba4e0bf5a399fc403f379227fca83423a6ea79d01e35c2f2b0f141ffa1d09e41377041268a53fb150
   languageName: node
   linkType: hard
 
@@ -6109,6 +6109,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next_yarn2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "next_yarn2@workspace:."
+  dependencies:
+    "@types/node": ^16.11.7
+    "@types/react": ^17.0.35
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    "@yarnpkg/sdks": ^2.5.1-rc.2
+    autoprefixer: latest
+    axios: ^0.24.0
+    eslint: <8.0.0
+    eslint-config-next: ^12.0.4
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-prettier: ^4.0.0
+    jest: ^27.3.1
+    next: ^12.0.4
+    playwright: ^1.16.3
+    postcss: latest
+    prettier: ^2.4.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    tailwindcss: latest
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
+
 "node-emoji@npm:^1.11.0":
   version: 1.11.0
   resolution: "node-emoji@npm:1.11.0"
@@ -6207,6 +6234,13 @@ __metadata:
   version: 3.0.0
   resolution: "normalize-path@npm:3.0.0"
   checksum: 88eeb4da891e10b1318c4b2476b6e2ecbeb5ff97d946815ffea7794c31a89017c70d7f34b3c2ebf23ef4e9fc9fb99f7dffe36da22011b5b5c6ffa34f4873ec20
+  languageName: node
+  linkType: hard
+
+"normalize-range@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "normalize-range@npm:0.1.2"
+  checksum: 9b2f14f093593f367a7a0834267c24f3cb3e887a2d9809c77d8a7e5fd08738bcd15af46f0ab01cc3a3d660386f015816b5c922cea8bf2ee79777f40874063184
   languageName: node
   linkType: hard
 
@@ -6796,7 +6830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.6, postcss@npm:^8.2.1":
+"postcss@npm:^8.1.6, postcss@npm:^8.2.1, postcss@npm:latest":
   version: 8.3.11
   resolution: "postcss@npm:8.3.11"
   dependencies:
@@ -7959,7 +7993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^2.2.19":
+"tailwindcss@npm:latest":
   version: 2.2.19
   resolution: "tailwindcss@npm:2.2.19"
   dependencies:
