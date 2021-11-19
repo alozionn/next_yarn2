@@ -4,7 +4,7 @@ Packages used ->
 
 - base dependencies: `yarn add next react react-dom`
 - extra dependencies 'anything goes here, those can be removed': `yarn add axios `
-- devDependencies: `yarn add --dev prettier typescript eslint"<8.0.0" @yarnpkg/sdks @types/node @types/react eslint-config-next eslint-config-prettier eslint-plugin-prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier typescript tailwindcss@latest postcss@latest autoprefixer@latest playwright jest`
+- devDependencies: `yarn add --dev prettier typescript eslint@"<8.0.0" @yarnpkg/sdks @types/node @types/react eslint-config-next eslint-config-prettier eslint-plugin-prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier typescript tailwindcss@latest postcss@latest autoprefixer@latest playwright jest`
 
 ### --Can be skipped--
 
